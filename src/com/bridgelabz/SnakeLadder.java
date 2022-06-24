@@ -28,6 +28,25 @@ public class SnakeLadder {
             {
                 position=0;
             }
+            if (position == 94){
+                position += 6;
+                System.out.println("position is :" + position);
+            }if (position == 95){
+                position += 5;
+                System.out.println("position is :" + position);
+            }if (position == 96) {
+                position +=  4;
+                System.out.println("position is :" + position);
+            }if (position == 97) {
+                position +=  3;
+                System.out.println("position is :" + position);
+            }if (position==98) {
+                position += 2;
+                System.out.println("position is :" + position);
+            }if (position==99){
+                position += 1;
+                System.out.println("position is :" + position);
+            }
         }while (position<100);
         }
     }
