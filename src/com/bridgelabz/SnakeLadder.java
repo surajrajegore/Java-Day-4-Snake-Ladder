@@ -4,6 +4,7 @@ public class SnakeLadder {
     public static void main(String[] args)
     {
         int position = 0;
+        int diceCount = 0;
         do {
             int playerPlay = (int) (Math.random() * 2);
             final int SNAKE = 1;
@@ -47,7 +48,9 @@ public class SnakeLadder {
                 position += 1;
                 System.out.println("position is :" + position);
             }
+            diceCount++;
         }while (position<100);
+        System.out.println("dice count="+diceCount);
         }
     }
 
